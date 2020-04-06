@@ -5,7 +5,7 @@
 ## Requirement 1
 Write a test plan for this [budget management application](https://budget.modus.app). This plan should include appropriate test coverage with both negative and positive test scenarios. 
 
-+ Please find the [Test Plan here](../blob/master/e2e/test%20plan/Test_Plan_for_Modus_budget_management_application.xls) 
++ Please find the [Test Plan here](..../e2e/test%20plan/Test_Plan_for_Modus_budget_management_application.xls) 
 
 ## Requirement 2 & 3: 
   1. Select **3** test scenarios from your test plan to automate and be sure to include appropriate directions for execution
