@@ -1,0 +1,14 @@
+{
+    "baseUrl": "https://budget.modus.app/budget",
+    "integrationFolder": "./e2e/cypress/integration/",
+    "pluginsFile":"./e2e/cypress/plugins/index.js",
+    "screenshotsFolder":"./e2e/cypress/screenshots",
+    "supportFile":"./e2e/cypress/support/index.js",
+    "videosFolder":"./e2e/cypress/videos",
+    "waitForFileChanges": false,
+    "requestTimeout": 20000,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    }
+}
