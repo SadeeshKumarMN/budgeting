@@ -5,7 +5,7 @@
 ## Requirement 1
 Write a test plan for this [budget management application](https://budget.modus.app). This plan should include appropriate test coverage with both negative and positive test scenarios. 
 
-+ Please find the [Test Plan here](demo-evidence/Test_Plan_for_Modus_budget_management_application.xls) 
++ Please find the [Test Plan here](test-plan/Test_Plan_for_Modus_budget_management_application.xls) 
 
 ## Requirement 2 & 3: 
   1. Select **3** test scenarios from your test plan to automate and be sure to include appropriate directions for execution
@@ -32,8 +32,8 @@ Write a test plan for this [budget management application](https://budget.modus.
    
 ### NPM Scripts for test execution
    + **npm install** - install dependencies
-   + **npm run e2e:chrome** - spin up the test execution in chrome browser
-   **_Notes_**: 
+   + **npm run e2e:chrome** - spin up the test execution in chrome browser                                                                
+      **_Notes_**: 
        +  Cypress automatically detects available browsers on your OS and launch that up, so this may take some seconds to begin the execution at first run.
        + If Chrome browser is not installed in your system, please install it first and proceed this script.
        + Also, we can launch any supported browser by specifying a path to the binary like this: cypress run --browser /usr/bin/chromium
