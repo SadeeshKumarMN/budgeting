@@ -33,8 +33,7 @@ Write a test plan for this [budget management application](https://budget.modus.
 ### NPM Scripts for test execution
    + **npm install** - install dependencies
    + **npm run e2e:chrome** - spin up the test execution in chrome browser
-      
-      **_Notes_**: 
+   **_Notes_**: 
        +  Cypress automatically detects available browsers on your OS and launch that up, so this may take some seconds to begin the execution at first run.
        + If Chrome browser is not installed in your system, please install it first and proceed this script.
        + Also, we can launch any supported browser by specifying a path to the binary like this: cypress run --browser /usr/bin/chromium
